@@ -15,7 +15,7 @@ function islandora_bibliography_admin_form() {
   $max_execution_time = (ini_get('max_execution_time') ? ini_get('max_execution_time') : "Unable to get max execution time.");
   $form['islandora_bibliography_max_objects_for_pdf_export'] = array(
     '#type' => 'textfield',
-    '#title' => t('The maximium number of objects that can be exported during a single bibliography citation PDF export.'),
+    '#title' => t('The Maximium Number of Objects That Can Be Exported During a Single Bibliography Citation PDF Export.'),
     '#description' => t('You may be able to increase this number. It is very important that the change should be
                         tested to make sure the pdf generation still functions up to the increased object limit.',
       array('execution_time' => $max_execution_time)),
